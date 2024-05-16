@@ -237,11 +237,13 @@ document.addEventListener("dblclick", function (event) {
   });
 });
 
-// if url is on a localhost domain, show the edit button allow for any port
-if (window.location.hostname === "localhost") {
-  var editButton = document.getElementById("edit_bar");
-  editButton.style.setProperty("--d", "block"); // Use setProperty to modify CSS variables
-  editButton.addEventListener("click", function () {
+
+//if (window.location.hostname === "localhost") {
+// We'll do it if we're on a file:// URL
+if (window.location.protocol === "file:") {
+  var edit_bar = document.getElementById("edit_bar");
+  edit_bar.style.setProperty("--d", "block"); // Use setProperty to modify CSS variables
+  edit_bar.addEventListener("click", function () {
     toggleAllTextEditable();
   });
 }
