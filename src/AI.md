@@ -13,7 +13,7 @@ title: /AI
 
 At Startr.Team, we are pioneering the future of AI education with our **private**, **secure**, and **compliance-focused**, **on-premises** generative AI solutions. Designed to empower Canadian  schools, our cutting-edge technology is ready to transform your educational environment. And now, you have the opportunity to be part of this transformative journey through our exclusive **Beta Testing Program**.
 
-Join our Beta Now _______________
+[Join our Beta Now](/AI/Signup)
 
 ![](https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
 
