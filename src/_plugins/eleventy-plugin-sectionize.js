@@ -1,10 +1,14 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require("markdown-it-attrs");
 
 module.exports = function(eleventyConfig) {
-  const md = markdownIt().use(markdownItAnchor, {
-    // Configuration options for markdown-it-anchor
-  });
+  const md = markdownIt()
+    .use(markdownItAnchor, {
+      permalink: false,
+      slugify: s => s.toLowerCase().replace(/[^\w]+/g, '-')
+    })
+    .use(markdownItAttrs);
 
   function wrapSections(tokens) {
     let result = [];
@@ -38,6 +42,5 @@ module.exports = function(eleventyConfig) {
     state.tokens = wrapSections(state.tokens);
   });
 
-  // Override the default markdown-it instance in Eleventy
   eleventyConfig.setLibrary("md", md);
 };
