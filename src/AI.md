@@ -61,7 +61,7 @@ With our Beta program, you will have a direct voice in the development of our pr
 
 Don't miss this opportunity to be at the center of educational transformation. Our team is eager to work alongside visionary institutions like yours to make a lasting impact on the future of learning.
 
-**[Apply Now](**Canadians.Love/AI**)**
+**[Apply Now](/AI/signup)**
 
 Together, let's redefine what's possible in education. 
 
