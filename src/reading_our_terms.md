@@ -1,3 +1,8 @@
+---
+title: Canadians.Love/reading_our_terms
+
+---
+
 TERMS OF USE
 
 Last updated

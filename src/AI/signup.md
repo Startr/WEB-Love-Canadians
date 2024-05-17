@@ -1,7 +1,6 @@
 ---
 title: /AI/Signup
 ---
-
 Join our Beta Now and get exclusive access to the most secure and private AI technology designed specifically for the education sector. Our on-premises solution respects the Canadian Privacy Act, ensuring your data never leaves your control and providing unmatched security and peace of mind.
 
 <form name="contact_about_ai" netlify>
