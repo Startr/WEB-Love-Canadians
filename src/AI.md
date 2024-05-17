@@ -5,11 +5,11 @@ title: /AI
 ---
 
 # Canadians.Love/AI
-## Revolutionizing Education with Secure, On-Premises AI Solutions
+## Revolutionizing Education 
 
 ![Education](https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
 
-## Be at the Forefront of AI Educational Innovation: Join Our Beta Program
+## [Be at the Forefront of AI Educational Innovation: Join Our Beta Program](/AI/Signup)
 
 At Startr.Team, we are pioneering the future of AI education with our **private**, **secure**, and **compliance-focused**, **on-premises** generative AI solutions. Designed to empower Canadian schools, our cutting-edge technology is ready to transform your educational environment. And now, you can be part of this transformative journey through our exclusive **Beta Testing Program**.
 
