@@ -1,92 +1,11 @@
 ---
 title: Canadians.Love
 ---
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
-  </head>
-
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="description"
-        content="Canadians.Love is a website dedicated to showcasing the best of Canada, 
-      from AI innovations to the arts, nature, and fun activities."
-      />
-
-      <meta
-        name="keywords"
-        content="Canada, AI, arts, nature, fun, technology, education, culture, landscape, festivals"
-      />
-      <meta name="author" content="Canadians.Love" />
-      <meta name="robots" content="index, follow" />
-      <meta name="revisit-after" content="1 days" />
-      <meta name="language" content="English" />
-      <meta name="generator" content="Startr" />
-      <!-- Include Startr Style CSS -->
-      <link rel="stylesheet" href="https://startr.style/style.css" />
-      <style>
-        :root {
-          --oklch-light-green: oklch(80%, 0.15, 145);
-          --oklch-dark-green: oklch(45%, 0.2, 145);
-          --oklch-light-blue: oklch(80%, 0.14, 250);
-          --oklch-dark-blue: oklch(15%, 0.2, 250);
-          --oklch-light-brown: oklch(60%, 0.25, 70);
-          --oklch-dark-brown: oklch(30%, 0.35, 70);
-          --oklch-light-yellow: oklch(95%, 0.1, 100);
-          --oklch-dark-yellow: oklch(75%, 0.22, 90);
-          --oklch-light-gray: oklch(90%, 0.01, 0);
-          --oklch-dark-gray: oklch(20%, 0+5, 150);
-        }
-      </style>
-      <title>Canadians.Love</title>
-    </head>
-    <body>
-
-
-      <header style="--p: 20px; --d: flex; --jc: space-between; --ai: center">
-        <nav id="edit_bar" style="--d: none">
-          <a id="save" href="data:text, To save enable javascript." onclick="saveDOMAsHTML();return false;">Save</a>
-          <a id="edit" href="data:text, To edit enable javascript." onclick="toggleAllTextEditable();return false;"
-            >Edit</a
-          >
-          <a
-            id="toggleDrag"
-            href="data:text, To drag enable javascript."
-            onclick="return false"
-            style="--d: none; --d-sm: inline"
-            >Drag</a
-          >
-        </nav>
-        <h1><a href="/">Canadians.Love</a></h1>
-        <nav>
-          <menu style="--d: none; --d-sm;flex; --cg: 0.2ch; --lis: none">
-            <li>
-              <a href="/AI" style="--c: var(--oklch-dark-gray)">AI Innovations</a>
-            </li>
-            -
-            <li>
-              <a href="/#learning" style="--c: var(--oklch-dark-gray)">Learning</a>
-            </li>
-            -
-            <li>
-              <a href="/#arts" style="--c: var(--oklch-dark-gray)">The Arts</a>
-            </li>
-            -
-            <li>
-              <a href="/#nature" style="--c: var(--oklch-dark-gray)">Nature</a>
-            </li>
-            -
-            <li><a href="#fun" style="--c: var(--oklch-dark-gray)">Fun</a></li>
-          </menu>
-        </nav>
-      </header>
+  {% include "component/head.njk" %}
+    <body style="--size:1.2rem">
+      {% include "component/header.njk" %}
 
       {{ content | safe }}
 
