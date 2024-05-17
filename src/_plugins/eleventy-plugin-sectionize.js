@@ -1,14 +1,23 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
+const fs = require('fs');
+const matter = require('gray-matter');
 
-module.exports = function(eleventyConfig) {
-  const md = markdownIt()
-    .use(markdownItAnchor, {
-      permalink: false,
+const isDevelopment = process.env.NODE_ENV === 'development';
+
+function configureMarkdown(permalinksEnabled = false) {
+  const md = markdownIt({ html: true }).use(markdownItAttrs);
+
+  if (permalinksEnabled) {
+    md.use(markdownItAnchor, {
+      permalink: true,
+      permalinkClass: 'header-anchor',
+      permalinkSymbol: '🔗',
+      permalinkBefore: true,
       slugify: s => s.toLowerCase().replace(/[^\w]+/g, '-')
-    })
-    .use(markdownItAttrs);
+    });
+  }
 
   function wrapSections(tokens) {
     let result = [];
@@ -42,5 +51,23 @@ module.exports = function(eleventyConfig) {
     state.tokens = wrapSections(state.tokens);
   });
 
-  eleventyConfig.setLibrary("md", md);
+  return md;
+}
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.setLibrary("md", configureMarkdown());
+
+  eleventyConfig.addFilter("markdown", function(content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    const inputPath = this.page.inputPath;
+    const fileContent = fs.readFileSync(inputPath, 'utf8');
+    const data = matter(fileContent).data;
+    const permalinksEnabled = data.permalinks !== undefined ? data.permalinks : false;
+
+    const md = configureMarkdown(permalinksEnabled);
+    return md.render(content);
+  });
 };
