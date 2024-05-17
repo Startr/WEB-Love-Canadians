@@ -28,6 +28,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "luxon": "^3.3.0",
     "markdown-it": "^14.1.0",
-    "markdown-it-anchor": "^9.0.0"
+    "markdown-it-anchor": "^9.0.0",
+    "markdown-it-attrs": "^4.1.6"
   }
 }
