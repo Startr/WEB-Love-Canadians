@@ -4,8 +4,6 @@ const markdownItAttrs = require("markdown-it-attrs");
 const fs = require('fs');
 const matter = require('gray-matter');
 
-const isDevelopment = process.env.NODE_ENV === 'development';
-
 function configureMarkdown(permalinksEnabled = false) {
   const md = markdownIt({ html: true }).use(markdownItAttrs);
 
@@ -55,8 +53,6 @@ function configureMarkdown(permalinksEnabled = false) {
 }
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.setLibrary("md", configureMarkdown());
-
   eleventyConfig.addFilter("markdown", function(content, outputPath) {
     if (!outputPath || !outputPath.endsWith(".html")) {
       return content;
@@ -65,9 +61,12 @@ module.exports = function(eleventyConfig) {
     const inputPath = this.page.inputPath;
     const fileContent = fs.readFileSync(inputPath, 'utf8');
     const data = matter(fileContent).data;
-    const permalinksEnabled = data.permalinks !== undefined ? data.permalinks : false;
+    const permalinksEnabled = data.permalinks === true;
 
     const md = configureMarkdown(permalinksEnabled);
     return md.render(content);
   });
+
+  // Set the default Markdown library without permalinks
+  eleventyConfig.setLibrary("md", configureMarkdown(false));
 };
