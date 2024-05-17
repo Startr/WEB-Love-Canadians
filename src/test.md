@@ -3,7 +3,7 @@ title: "Example Page"
 layout: "default"
 ---
 
-# Heading 1 {id="custom-id" class="custom-section" style="color: red;"}
+# Heading 1 {#custom-id class="custom-section" style="color: red;"}
 This is a paragraph under heading 1.
 
 - List item 1 {class="highlight"}
