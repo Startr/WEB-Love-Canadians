@@ -1,8 +1,8 @@
 ---
 title: "Example Page"
-
-permalinks: true
+permalinks: false
 ---
+
 <style>
     .highlight {
         padding: 0 1ch;
@@ -10,7 +10,6 @@ permalinks: true
         width: fit-content;
     }
 </style>
-
 <blockquote>
     This is a blockquote.
 </blockquote>
