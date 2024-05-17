@@ -1,5 +1,5 @@
 ---
-title: My Rad Blog
+title: Canadians.Love
 ---
 
 <!DOCTYPE html>
@@ -90,11 +90,8 @@ title: My Rad Blog
 
       {{ content | safe }}
 
-      <footer style="--p: 20px; --ta: center">
-        <p>Contact us at info@canadians.love</p>
-        <p>Follow us on social media for the latest updates.</p>
-      </footer>
-      <script src="/script.js"></script>
+      {% include "component/footer.njk" %}
+      {% include "component/scripts.njk" %}
     </body>
   </html>
 </html>
