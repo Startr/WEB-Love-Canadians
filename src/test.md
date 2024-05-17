@@ -15,7 +15,7 @@ This is a paragraph under heading 1.
 - List item 1 {class="highlight"}
 - List item 2
 
-![Alt text](image.jpeg){style="border: 1px solid black;"}
+![Alt text](image.jpeg){style="--shadow:6; --levitate-hvr:4; --br:2em"}
 
 ## Heading 2 {.custom-section}
 This is another paragraph under heading 2.
