@@ -1,5 +1,4 @@
 ---
-layout: layout.njk
 ---
 1. A comprehensive document detailing how we collect, use, and protect personal information in compliance with applicable laws. This page is crucial for transparency and trust-building, ensuring that your data is handled with the utmost care and respect for privacy.
 
