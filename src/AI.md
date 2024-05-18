@@ -25,10 +25,10 @@ Be among the first to experience the most secure and private AI technology desig
 
 ![](https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
 
-#### **Shape the Future of Education**: 
+#### Shape the Future of Education: 
 Your feedback will be instrumental in refining our solutions better to meet the needs of educators and students alike. As a Beta partner, your insights will directly influence the evolution of our technology, ensuring it remains relevant, practical, and ahead of the curve.
 
-####  **Curriculum Developed by Expert Educators**: 
+#### Curriculum Developed by Expert Educators: 
 Dive into an enriching curriculum developed by educators from MIT, McGill, Berkley, and Göttingen tailored to maximize the benefits of generative AI in an educational setting. Our curriculum is crafted to enhance learning outcomes, engage students, and inspire innovation.
 
 ![](https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
