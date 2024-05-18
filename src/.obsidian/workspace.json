@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI.md",
+                "file": "AI/signup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI.md",
+                "file": "AI/signup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI.md",
+                "file": "AI/signup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI.md"
+                "file": "AI/signup.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "1711e5ad731b8fc5",
   "lastOpenFiles": [
+    "AI.md",
     "our_test_page.md",
-    "AI/signup.md",
-    "AI.md"
+    "AI/signup.md"
   ]
 }
