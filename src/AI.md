@@ -5,9 +5,11 @@ title: /AI
 ---
 
 # Canadians.Love/AI
+
+We're 
 ## Revolutionizing Education 
 
-![Education](https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
+![Education](/AI/graduation.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
 ## [Be at the Forefront of AI Educational Innovation: Join Our Beta Program](/AI/Signup)
 
@@ -15,7 +17,7 @@ At Startr.Team, we are pioneering the future of AI education with our **private*
 
 [Join our Beta Now](/AI/Signup)
 
-![](https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
+![Collaborate](/AI/collaborate.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
 ## Advantages of Joining Our Beta Testing Program
 
@@ -23,7 +25,7 @@ At Startr.Team, we are pioneering the future of AI education with our **private*
 
 Be among the first to experience the most secure and private AI technology designed specifically for the education sector. Our on-premises solution respects the Canadian Privacy Act, ensuring your data never leaves your control and providing unmatched security and peace of mind.
 
-![](https://images.unsplash.com/photo-1546188994-07c34f6e5e1b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
+![Clear Vision](/AI/clear_vission.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
 #### Shape the Future of Education: 
 Your feedback will be instrumental in refining our solutions better to meet the needs of educators and students alike. As a Beta partner, your insights will directly influence the evolution of our technology, ensuring it remains relevant, practical, and ahead of the curve.
@@ -31,7 +33,7 @@ Your feedback will be instrumental in refining our solutions better to meet the 
 #### Curriculum Developed by Expert Educators: 
 Dive into an enriching curriculum developed by educators from MIT, McGill, Berkley, and Göttingen tailored to maximize the benefits of generative AI in an educational setting. Our curriculum is crafted to enhance learning outcomes, engage students, and inspire innovation.
 
-![](https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
+![](/AI/love_to_learn.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
 #### Professional Development Insights:** 
 Become empowered as you and your team learn to navigate this new era of AI teaching. Explore the strengths, weaknesses, and quirks of generative AI, empowering your faculty to navigate this new era of teaching with clarity and confidence.
@@ -46,20 +48,20 @@ Our solutions are built from the ground up with privacy in mind, ensuring compli
 Your data is secure with us.
 
 #### Customization and Control 
-Enjoy the flexibility of an [on-premise](/AI/on-site) solution that can be tailored to your institution's unique needs without the concerns of cloud-based data storage. Alternatively, host with our upcoming secure cloud, which has servers in the regions you need.
+Enjoy the flexibility of an [on-premise](/AI/on-site) solution that can be tailored to your institution's unique needs without the concerns of cloud-based data storage—alternatively, host with our upcoming secure cloud, which has servers in the regions you need.
 
-![](https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
+![](/ai/typing.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
 #### Partnering for Success:
-The Startr.team is committed to providing comprehensive support to our Beta partners and ensuring that our AI solutions are integrated seamlessly and successfully into your school environment. Our support spans technical assistance to pedagogical guidance, facilitating a smooth implementation process.
+The Startr.Team is committed to providing comprehensive support to our Beta partners and ensuring that our AI solutions are integrated seamlessly and successfully into your school environment. Our support spans technical assistance to pedagogical guidance, facilitating a smooth implementation process.
 
 #### Open Source Empowerment:
-Embracing the ethos of transparency and collaboration, we proudly develop our solution as open AGP-licensed software. This approach not only guarantees transparency but also empowers educational institutions. We warmly invite those with technical expertise but limited financial resources to join our community. By collaborating, we can innovate together, tailoring our solutions to meet the unique needs of the educational landscape.
+Embracing the ethos of transparency and collaboration, we proudly develop our solution as open AGP-licensed software. This approach not only guarantees transparency but also empowers educational institutions. We invite those with technical expertise but need more financial resources to join our community. By collaborating, we can innovate together, tailoring our solutions to meet the unique needs of the educational landscape.
 
 #### Collaboration for Growth:
 Our Beta program gives you a direct voice in developing our product. We offer a platform where your insights and experiences directly influence the evolution of our product. This collaborative effort is instrumental in shaping a solution that genuinely serves the educational community, fostering growth and success for all involved.
 
-![](https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
+![Vibrant AI Education](/AI/vibrant-ai-education.png){style="--shadow:6;  --br:0.5em"}
 
 ## Apply to Be a Beta Partner
 
@@ -77,4 +79,4 @@ Let's embark on this transformative journey together, pioneering a new era of ed
 
 **Apply Now** to become a Beta partner and place your institution at the cutting edge of educational technology.
 
-For more information and to schedule a session with our Startr.team, [contact us](/connecting) or reach out directly at ai.ed.info@Canadians.Love - Where Innovation Meets Education.
+For more information and to schedule a session with our Startr.Team, [contact us](/connecting) or reach out directly at ai.ed.info@Canadians.Love - Where Innovation Meets Education.
