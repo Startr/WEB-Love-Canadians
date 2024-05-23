@@ -53,8 +53,12 @@ function configureMarkdown(permalinksEnabled = false) {
       if (token.type === 'paragraph_open') {
         const nextToken = tokens[index + 1];
         const closingToken = tokens[index + 2];
-        if (nextToken.type === 'inline' && nextToken.content.trim() === '' && closingToken.type === 'paragraph_close') {
-          // Skip the paragraph_open, inline (empty), and paragraph_close tokens
+        if (
+          nextToken.type === 'inline' &&
+          (nextToken.content.trim() === '' || nextToken.content.startsWith('{') && nextToken.content.endsWith('}')) &&
+          closingToken.type === 'paragraph_close'
+        ) {
+          // Skip the paragraph_open, inline (empty or attributes only), and paragraph_close tokens
           return;
         }
       }
