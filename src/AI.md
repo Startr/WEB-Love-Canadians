@@ -31,6 +31,11 @@ Don't let organizations snoop over your shoulder in ways that you do not want.
 
 ![Clear Vision](/AI/clear_vission.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
+----
+- filters
+- Teachers can see what students are 
+
+
 #### Shape the Future of Education: 
 Your feedback will be instrumental in refining our solutions better to meet the needs of educators and students alike. As a Beta partner, your insights will directly influence the evolution of our technology, ensuring it remains relevant, practical, and ahead of the curve.
 
