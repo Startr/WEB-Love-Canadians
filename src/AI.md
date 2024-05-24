@@ -4,16 +4,16 @@ title: /AI
 
 ---
 
-# Canadians.Love/AI
-
-We're 
-## Revolutionizing Education 
+# Canadians.Love/AI 
+[Creation](/AI/creation) - [Guard](/AI/Guard)
 
 ![Education](/AI/graduation.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
-## [Be at the Forefront of AI Educational Innovation: Join Our Beta Program](/AI/Signup)
 
-At Startr.Team, we are pioneering the future of AI education with our **private**, **secure**, and **compliance-focused**, **on-premises** generative AI solutions. Designed to empower Canadian schools, our cutting-edge technology is ready to transform your educational environment. And now, you can be part of this transformative journey through our exclusive **Beta Testing Program**.
+## [Be at the Forefront of AI Educational Innovation: ](/AI/Signup)
+### [Join Our Beta Program](/AI/signup)
+
+At Startr.Team, we are pioneering the future of AI education with our **private**, **secure**, and **compliance-focused**, **on-premises** generative AI solutions ([Creation](/AI/creation) & [Guard](/AI/Guard)). Designed to empower and protect Canadians, our cutting-edge technology is ready to transform your educational environment. And now, you can be part of this transformative journey through our exclusive **Beta Testing Program**.
 
 [Join our Beta Now](/AI/Signup)
 
@@ -23,9 +23,18 @@ At Startr.Team, we are pioneering the future of AI education with our **private*
 
 #### Exclusive Access: 
 
-Be among the first to experience the most secure and private AI technology designed specifically for the education sector. Our on-premises solution respects the Canadian Privacy Act, ensuring your data never leaves your control and providing unmatched security and peace of mind.
+Be among the first to experience the most **secure and private** AI technology designed specifically for the education sector. Our on-premises solution respects more than the [Canadian Privacy Act](https://www.justice.gc.ca/eng/csj-sjc/pa-lprp/pa-lprp.html), ensuring your data never leaves your control and providing unmatched security and peace of mind.
+
+What doesn't mean to have all your data private? Keeping your data private means knowing that others can't read in on what you're doing. Can't snoop on you and your students as they learn and grow and won't be able to learn and figure out how to manipulate you. Control of your data is essential as more and more tools come out that can craft believable messaging as we enter time where generative AI allows for rapid development of persuasive arguments privacy is more important than ever. 
+
+Don't let organizations snoop over your shoulder in ways that you do not want.
 
 ![Clear Vision](/AI/clear_vission.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
+
+----
+- filters
+- Teachers can see what students are 
+
 
 #### Shape the Future of Education: 
 Your feedback will be instrumental in refining our solutions better to meet the needs of educators and students alike. As a Beta partner, your insights will directly influence the evolution of our technology, ensuring it remains relevant, practical, and ahead of the curve.
@@ -35,7 +44,7 @@ Dive into an enriching curriculum developed by educators from MIT, McGill, Berkl
 
 ![](/AI/love_to_learn.jpeg){style="--shadow:6; --levitate-hvr:4; --br:0.5em"}
 
-#### Professional Development Insights:** 
+#### Professional Development Insights: 
 Become empowered as you and your team learn to navigate this new era of AI teaching. Explore the strengths, weaknesses, and quirks of generative AI, empowering your faculty to navigate this new era of teaching with clarity and confidence.
 
 ![Vibrant AI Education](/AI/vibrant-ai-education.png){style="--shadow:6;  --br:0.5em"}
@@ -78,5 +87,7 @@ If your institution is passionate about **innovation**, dedicated to **excellenc
 Let's embark on this transformative journey together, pioneering a new era of educational excellence with generative AI.
 
 **Apply Now** to become a Beta partner and place your institution at the cutting edge of educational technology.
+
+Learn more and read about our [Creation](/AI/creation) and [Guard](/AI/Guard) solutions.
 
 For more information and to schedule a session with our Startr.Team, [contact us](/connecting) or reach out directly at ai.ed.info@Canadians.Love - Where Innovation Meets Education.

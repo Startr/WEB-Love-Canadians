@@ -55,9 +55,11 @@ Harness the cutting-edge performance of Apple Silicon processors with our tailor
 
 ### 3. Nvidia-Powered AI {style="text-align: center; color: purple; --levitate-hvr: 10;"}
 
+
 Take advantage of Nvidia's industry-leading GPU technology to supercharge your AI capabilities. Our Nvidia-powered on-premise solutions provide unparalleled performance for demanding AI applications, from deep learning to complex data analysis. Enjoy the benefits of Nvidia's powerful GPUs, designed to handle the most intensive AI workloads with ease and precision.
 
 #### Graphics Cards:
+
 **NVIDIA RTX A6000:** {style="--translatex-hvr:35px;"}
 - *VRAM:* 48GB
 - <span style="color: green;"> **Price:** $18,600.00
@@ -91,6 +93,7 @@ Take advantage of Nvidia's industry-leading GPU technology to supercharge your A
 ## Discover the AI On-Prem Advantage
 
 Join the growing number of institutions that trust AI On-Prem for their artificial intelligence needs. Our commitment to security, privacy, and performance ensures that your organization can leverage the latest AI advancements while maintaining complete control over your data.
+
 
 #### Ready to Transform Your AI Strategy?
 Contact us today to learn more about our AI On-Prem solutions and find the perfect fit for your organization's needs. Our team of experts is ready to guide you through the process and ensure a seamless integration that maximizes your AI potential.

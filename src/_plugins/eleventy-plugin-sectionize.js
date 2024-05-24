@@ -21,8 +21,17 @@ function configureMarkdown(permalinksEnabled = false) {
     let result = [];
     let stack = [];
     let lastLevel = 0;
+    let sectionAttrs = '';
+    let pendingSectionAttrs = '';
 
-    tokens.forEach(token => {
+    tokens.forEach((token, index) => {
+      if (token.type === 'inline' && token.content.startsWith('{') && token.content.endsWith('}')) {
+        // This token is an attribute block, extract and store the attributes
+        pendingSectionAttrs = token.content.slice(1, -1);
+        // Skip adding this token to the result as it's not a part of the actual content
+        return;
+      }
+
       if (token.type === 'heading_open') {
         let level = parseInt(token.tag.slice(1));
 
@@ -31,10 +40,29 @@ function configureMarkdown(permalinksEnabled = false) {
           lastLevel--;
         }
 
-        result.push({ type: 'html_block', content: '<section>' });
+        // Use pendingSectionAttrs if available, otherwise use sectionAttrs
+        sectionAttrs = pendingSectionAttrs || sectionAttrs;
+        result.push({ type: 'html_block', content: `<section ${sectionAttrs}>` });
         stack.push({ type: 'html_block', content: '</section>' });
         lastLevel = level;
+        sectionAttrs = ''; // Reset attributes after using them
+        pendingSectionAttrs = ''; // Reset pending attributes
       }
+
+      // Check if the current token is an empty paragraph and skip it if true
+      if (token.type === 'paragraph_open') {
+        const nextToken = tokens[index + 1];
+        const closingToken = tokens[index + 2];
+        if (
+          nextToken.type === 'inline' &&
+          (nextToken.content.trim() === '' || nextToken.content.startsWith('{') && nextToken.content.endsWith('}')) &&
+          closingToken.type === 'paragraph_close'
+        ) {
+          // Skip the paragraph_open, inline (empty or attributes only), and paragraph_close tokens
+          return;
+        }
+      }
+
       result.push(token);
     });
 
