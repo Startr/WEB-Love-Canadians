@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/signup.md",
+                "file": "AI.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/signup.md",
+                "file": "AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/signup.md",
+                "file": "AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/signup.md"
+                "file": "AI.md"
               }
             }
           }
@@ -151,10 +151,28 @@
   },
   "active": "1711e5ad731b8fc5",
   "lastOpenFiles": [
-    "permalinks.md",
+    "AI/love_to_learn.jpeg.sb-6d64308f-mpWLVb",
+    "AI/clear_vission.jpeg.sb-6d64308f-zzHhyL",
+    "AI/graduation.jpeg.sb-6d64308f-YRuFfI",
+    "AI/graduation.jpeg",
+    "AI/typing.jpeg",
     "AI/vibrant-ai-education.png",
+    "AI/attachments/vibrant-ai-education 1.png",
+    "AI/love_to_learn.jpeg",
+    "AI/collaborate.jpeg",
+    "AI/clear_vission.jpeg",
     "AI.md",
-    "our_test_page.md",
-    "AI/signup.md"
+    "AI/attachments/photo-1508780709619-79562169bc64.jpeg.crdownload",
+    "AI/attachments/photo-1546410531-bb4caa6b424d.jpeg.crdownload",
+    "AI/attachments/photo-1546188994-07c34f6e5e1b.jpeg.crdownload",
+    "AI/attachments",
+    "AI/creation.md",
+    "AI/guard.md",
+    "AI/signup.md",
+    "cookies.md",
+    "The law of unincorporated associations -- Stewart, Nicholas; Campbell, Natalie; Baughen, Simon -- 2011 -- Oxford_ Oxford University Press -- 9780199600397 -- c5df69844af680c4ac01005a57394674 -- Anna’s Archive.pdf",
+    "The law of unincorporated associations -- Stewart, Nicholas; Campbell, Natalie; Baughen, Simon -- 2011 -- Oxford_ Oxford University Press -- 9780199600397 -- c5df69844af680c4ac01005a57394674 -- Anna’s Archive.pdf.crdownload",
+    "permalinks.md",
+    "our_test_page.md"
   ]
 }
