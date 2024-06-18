@@ -43,7 +43,7 @@ title: /Lessons
 ### 2. AI Hardware {style="--ta: center; --c: purple"}
 
 <figure id="AI Hardware" style="--jc: center; --br: 5px; --bg: #fef; --of: hidden; --shadow: 15; --levitate-hvr:10;">
-    <img alt="AI Hardware" src="/AI/coding screen_022.jpg">
+    <img alt="AI Hardware" src="/AI/hardware.webp">
     <figcaption style="--shadow-hvr: 15; margin-top: 20px; margin-bottom: 20px;">
         Explore the latest hardware solutions for AI, from cutting-edge GPUs to specialized AI chips. Learn how hardware accelerators can enhance the performance of AI models and enable new possibilities in machine learning and deep learning.
     </figcaption>
