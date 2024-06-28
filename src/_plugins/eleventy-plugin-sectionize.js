@@ -25,47 +25,48 @@ function configureMarkdown(permalinksEnabled = false) {
     let pendingSectionAttrs = '';
 
     tokens.forEach((token, index) => {
+      // Handle attribute blocks
       if (token.type === 'inline' && token.content.startsWith('{') && token.content.endsWith('}')) {
-        // This token is an attribute block, extract and store the attributes
         pendingSectionAttrs = token.content.slice(1, -1);
-        // Skip adding this token to the result as it's not a part of the actual content
-        return;
+        return; // Skip attribute tokens
       }
 
+      // Handle heading tokens
       if (token.type === 'heading_open') {
         let level = parseInt(token.tag.slice(1));
-
+        
+        // Close previous sections if necessary
         while (stack.length && lastLevel >= level) {
           result.push(stack.pop());
           lastLevel--;
         }
 
-        // Use pendingSectionAttrs if available, otherwise use sectionAttrs
+        // Use pending attributes if available, otherwise use existing section attributes
         sectionAttrs = pendingSectionAttrs || sectionAttrs;
         result.push({ type: 'html_block', content: `<section ${sectionAttrs}>` });
         stack.push({ type: 'html_block', content: '</section>' });
         lastLevel = level;
-        sectionAttrs = ''; // Reset attributes after using them
+        sectionAttrs = ''; // Reset attributes
         pendingSectionAttrs = ''; // Reset pending attributes
       }
 
-      // Check if the current token is an empty paragraph and skip it if true
+      // Handle empty paragraphs and skip them
       if (token.type === 'paragraph_open') {
         const nextToken = tokens[index + 1];
         const closingToken = tokens[index + 2];
         if (
           nextToken.type === 'inline' &&
-          (nextToken.content.trim() === '' || nextToken.content.startsWith('{') && nextToken.content.endsWith('}')) &&
+          (nextToken.content.trim() === '' || (nextToken.content.startsWith('{') && nextToken.content.endsWith('}'))) &&
           closingToken.type === 'paragraph_close'
         ) {
-          // Skip the paragraph_open, inline (empty or attributes only), and paragraph_close tokens
-          return;
+          return; // Skip empty paragraph tokens
         }
       }
 
-      result.push(token);
+      result.push(token); // Add valid tokens to the result
     });
 
+    // Close any remaining open sections
     while (stack.length) {
       result.push(stack.pop());
     }
@@ -73,6 +74,7 @@ function configureMarkdown(permalinksEnabled = false) {
     return result;
   }
 
+  // Add the wrapSections function to the Markdown-It core ruler
   md.core.ruler.push('wrap_sections', state => {
     state.tokens = wrapSections(state.tokens);
   });
