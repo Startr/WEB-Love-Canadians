@@ -2,9 +2,13 @@
 title: /Computers
 ---
 
+<style>
+    .bigyellow {background-color: yellow; font-size: 30px;}
+</style>
+
 # AI On-Prem: The Ultimate Solution for Secure, Private AI Deployment {style="text-align: center; color: purple;"}
 <br><br>
-### levate Your AI Capabilities with Unmatched Security and Control
+### Elevate Your AI Capabilities with Unmatched Security and Control
 
 Welcome to **AI On-Prem**, your gateway to harnessing the power of advanced artificial intelligence within the secure confines of your own infrastructure. Designed for organizations that prioritize data privacy and control, our on-premise solutions deliver the robust performance of cloud-based AI without the associated risks. Experience the peace of mind that comes with knowing your data is fully protected and exclusively managed by your institution.
 
